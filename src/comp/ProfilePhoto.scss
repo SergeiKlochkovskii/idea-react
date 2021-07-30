@@ -1,0 +1,135 @@
+$color-dark: #222E94;
+$color-less-dark: #3342A5;
+
+.ant-upload.ant-upload-select {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+}
+
+
+.avatar-photo-container {
+  text-align: center;
+  position: relative;
+
+  .avatar-photo {
+    border-radius: 50%;
+    font-size: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: $color-less-dark;
+    color: white;
+    width: 160px;
+    height: 160px;
+
+    .photo-position {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+  }
+
+}
+
+
+//.avatar-crop {
+//  .ant-upload-animate-inline {
+//    position: absolute;
+//    top: 0;
+//    left: 8px;
+//  }
+//
+//  .ant-upload-list-item-actions button {
+//    border: none !important;
+//  }
+//
+//  .ant-upload-picture-card-wrapper {
+//    display: flex;
+//    justify-content: center;
+//
+//  }
+//  .ant-upload, .ant-upload-list-picture-card-container
+//  //, .ant-upload-list-item, .ant-upload-list-picture-card
+//  {
+//    width: 160px;
+//    height: 160px;
+//    border-radius: 50%;
+//    color: white;
+//    font-size: 2.5rem;
+//  }
+//
+//  .ant-upload.ant-upload-select-picture-card {
+//    background-color: $color-dark;
+//    width: 185px;
+//    height: 185px;
+//    border-radius: 50%;
+//    border: 14px solid lightgray;
+//    &:hover {
+//      border: 14px solid lightgray;
+//    }
+//
+//  }
+//
+//
+//  .ant-upload-list-picture-card .ant-upload-list-item {
+//    width: 160px;
+//    height: 160px;
+//    border-radius: 50%;
+//    color: $color-less-dark;
+//    font-size: 2.5rem;
+//    border: 14px solid lightgray;
+//    padding: 0;
+//  }
+//
+//
+//  .ant-upload-list-item-info {
+//    border-radius: 50%;
+//  }
+//}
+//
+//.profile__container {
+//  text-align: center;
+//  margin: 0 auto;
+//  width: 100%;
+//  display: flex;
+//  flex-direction: column;
+//  align-items: center;
+//
+//  .profile__photo {
+//
+//    background-color: lightgray;
+//    border-radius: 50%;
+//
+//    padding: 0.5rem;
+//    margin-bottom: 0.75rem;
+//
+//    cursor: pointer;
+//
+//    &:hover {
+//      opacity: 0.9;
+//    }
+//
+//    .profile__photo--inner {
+//      height: 125px;
+//      width: 125px;
+//      border-radius: 50%;
+//      background-color: $color-dark;
+//      //border: 4px solid white;
+//      color: white;
+//      font-size: 2.5rem;
+//      display: flex;
+//      justify-content: center;
+//      align-items: center;
+//      overflow: hidden;
+//
+//      img {
+//        width: 100%;
+//      }
+//    }
+//  }
+//}
